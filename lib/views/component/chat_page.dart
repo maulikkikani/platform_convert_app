@@ -3,9 +3,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:platform_convert_app/controller/provider/chnageappprovider.dart';
-import 'package:platform_convert_app/views/utils/attributes.dart';
+import 'package:platform_convert_app/views/utils/Attributes.dart';
 import 'package:provider/provider.dart';
-import '../../controller/provider/changethememodeprovider.dart';
+import '../../controller/provider/changetheprovider.dart';
 
 class chat_page extends StatefulWidget {
   const chat_page({Key? key}) : super(key: key);
