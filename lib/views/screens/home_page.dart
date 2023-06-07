@@ -1,13 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:platform_convert_app/controller/provider/chnageappprovider.dart';
-import 'package:platform_convert_app/views/component/callspage.dart';
-import 'package:platform_convert_app/views/component/chatpage.dart';
-import 'package:platform_convert_app/views/component/personpage.dart';
-import 'package:platform_convert_app/views/component/settingspage.dart';
+import 'package:platform_convert_app/controller/provider/chnage_app_provider.dart';
+import 'package:platform_convert_app/views/component/call_page.dart';
+import 'package:platform_convert_app/views/component/chat_page.dart';
+import 'package:platform_convert_app/views/component/person_page.dart';
+import 'package:platform_convert_app/views/component/setting_page.dart';
 import 'package:provider/provider.dart';
 
-import '../../controller/provider/changethememodeprovider.dart';
+import '../../controller/provider/change_theme_provider.dart';
 
 class homepage extends StatefulWidget {
   const homepage({Key? key}) : super(key: key);

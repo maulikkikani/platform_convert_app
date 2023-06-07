@@ -3,9 +3,9 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:platform_convert_app/controller/provider/changethememodeprovider.dart';
-import 'package:platform_convert_app/controller/provider/chnageappprovider.dart';
-import 'package:platform_convert_app/views/utils/attributes.dart';
+import 'package:platform_convert_app/controller/provider/change_theme_provider.dart';
+import 'package:platform_convert_app/controller/provider/chnage_app_provider.dart';
+import 'package:platform_convert_app/views/utils/Aattributes.dart';
 import 'package:provider/provider.dart';
 
 class settingpage extends StatefulWidget {

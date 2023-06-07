@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:platform_convert_app/modals/changethememode.dart';
+import 'package:platform_convert_app/modals/change_theme_mode.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class ChangeThemeProvider extends ChangeNotifier{

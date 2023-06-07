@@ -1,13 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:platform_convert_app/controller/provider/chnageappprovider.dart';
-import 'package:platform_convert_app/views/screens/homepage.dart';
-import 'package:platform_convert_app/views/utils/apptheme.dart';
+import 'package:platform_convert_app/controller/provider/chnage_app_provider.dart';
+import 'package:platform_convert_app/views/screens/home_page.dart';
+import 'package:platform_convert_app/views/utils/App_theme.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'controller/provider/changethememodeprovider.dart';
-import 'modals/changeappmode.dart';
-import 'modals/changethememode.dart';
+import 'controller/provider/change_theme_provider.dart';
+import 'modals/change_app_mode.dart';
+import 'modals/change_theme_mode.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

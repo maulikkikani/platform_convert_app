@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:platform_convert_app/modals/changeappmode.dart';
+import 'package:platform_convert_app/modals/change_app_mode.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 // class ChangeAppThemeProvider extends ChangeNotifier{
